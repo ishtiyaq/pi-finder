@@ -11,6 +11,6 @@ docker run --rm --net host ishtiyaq/pi-finder:latest
 Output:
 
 ```bash
-Looking for Raspbery IP addresses using arp-scan ...
+Looking for Raspbery IP addresses ...
 192.168.0.10	b8:27:eb:XX:XX:XX	Raspberry Pi Foundation
 ```
