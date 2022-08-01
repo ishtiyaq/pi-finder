@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/ishtiyaq/pi-finder/actions/workflows/main.yml/badge.svg)](https://github.com/ishtiyaq/pi-finder/actions/workflows/main.yml)
+
 # Pi-finder
 
 Pi-finder is slim alpine linux based docker contianer to find availablee Raspberry Pi in your network.
