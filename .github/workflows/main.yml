@@ -19,5 +19,5 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: ${{ DOCKERHUB_USERNAME }}/pi-finder:0.0.1, ${{ DOCKERHUB_USERNAME }}/pi-finder:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/pi-finder:0.0.1, ${{ secrets.DOCKERHUB_USERNAME }}/pi-finder:latest
         
