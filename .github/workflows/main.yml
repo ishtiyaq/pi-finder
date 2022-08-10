@@ -19,5 +19,5 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: ishtiyaq/pi-finder:latest
+        tags: ${{ DOCKERHUB_USERNAME }}/pi-finder:0.0.1, ${{ DOCKERHUB_USERNAME }}/pi-finder:latest
         
