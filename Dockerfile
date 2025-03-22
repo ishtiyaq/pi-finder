@@ -1,4 +1,4 @@
-FROM alpine:3.16
+FROM alpine:3.21.3
 
 LABEL maintainer="Ishtiyaq Husain" \
       description="Pi-finder is alpine linux based docker contianer to find availablee Raspberry Pi in your network." \
