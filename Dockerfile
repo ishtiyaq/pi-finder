@@ -1,9 +1,9 @@
-FROM alpine:3.21.3
+FROM alpine:3.23.4
 
 LABEL maintainer="Ishtiyaq Husain" \
       description="Pi-finder is alpine linux based docker contianer to find availablee Raspberry Pi in your network." \
       vendor="Ishtiyaq Husain" \
-      version="0.0.1"
+      version="0.0.2"
 
 RUN apk add --no-cache arp-scan bash grep
 
